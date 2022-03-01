@@ -56,7 +56,7 @@ ___3. Create a dockerfile as below in the directory where you have the war file 
 
 ___4. Add the below lines in the file:___
    
-    FROM tomcat                    //FROM command determines the image we want to use. The image is fetched from the
+    FROM tomcat                  //Determines the image we want to use. The image is fetched from the
     COPY Test.war /usr/local/tomcat/webapps
     CMD ["catalina.sh", "run"]
 
@@ -69,7 +69,10 @@ ___6. Build a docker image and run it as a container___
        $ docker ps      //displays the information about the currently running containers.
    
 ___7. The war file has been deployed. Now we can access our application with the URL: http://public_ip:8085/Test/___
-   
+
+___8. To stop a docker running:____
+  
+    $ sudo docker stop [CONTAINERID]
    
    
    
