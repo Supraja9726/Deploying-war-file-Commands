@@ -1,6 +1,6 @@
 # Deploying-war-file-Commands in Linux-based-System
 
-##Installing Docker:
+## Installing Docker:
 
 ___1. Install the necessary packages required for docker. Execute the below command:___
 
@@ -39,7 +39,7 @@ ___9. Create a symlink for docker service with the below command so that the doc
     
     $ sudo systemclt enable docker
     
-##Deploying War file on Tomcat Docker Container:
+## Deploying War file on Tomcat Docker Container:
 
 ___1. Create a war file of the project___
 
