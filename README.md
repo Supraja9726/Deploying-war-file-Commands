@@ -64,7 +64,7 @@ ___5. Save and Exit.___
 
 ___6. Build a docker image and run it as a container___
   
-       $ docker build -t test .      //The docker build command will execute the dockerfile to create an image out of it, and name the image test.
+       $ docker build -t test .      //Execute the dockerfile to create an image out of it;name the image test.
        $ docker run -itd -p 8085:8080 test     //docker run command is used to run a docker image as a container.
        $ docker ps      //displays the information about the currently running containers.
    
