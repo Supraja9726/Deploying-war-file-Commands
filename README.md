@@ -64,8 +64,8 @@ ___5. Save and Exit.___
 
 ___6. Build a docker image and run it as a container___
   
-       $ sudo docker build -t test .      //Execute the dockerfile to create an image out of it;name the image test.
-       $ sudo docker run -itd -p 8085:8080 test     //docker run command is used to run a docker image as a container.
+       $ sudo docker build -t test .    //Execute the dockerfile to create an image out of it;name the image test.
+       $ sudo docker run -itd -p 8085:8080 test   //docker run command is used to run a docker image as a container.
        $ sudo docker ps      //displays the information about the currently running containers.
    
 ___7. The war file has been deployed. Now we can access our application with the URL: http://public_ip:8085/Test/___
